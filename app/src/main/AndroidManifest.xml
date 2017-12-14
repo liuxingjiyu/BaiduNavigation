@@ -38,7 +38,17 @@
         android:theme="@style/AppTheme">
 
         <meta-data android:name="com.baidu.lbsapi.API_KEY"
-            android:value="1LkjRpYMStvzp5PoBRXgZLBRIrNMKaAC"/>
+            android:value="ibvAbqHlNhKsLCUC56SZhf0C5R80L8rg"/>
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="10532464" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="ibvAbqHlNhKsLCUC56SZhf0C5R80L8rg" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="lUjMuY7ZpvNRDjqwA3FtyPEoyIpN0c5r" />
 
         <activity android:name=".NavigationMainActivity">
             <intent-filter>
@@ -47,6 +57,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".BNDemoGuideActivity"/>
 
         <service
             android:name="com.baidu.location.f"
